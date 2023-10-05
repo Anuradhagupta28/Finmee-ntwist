@@ -60,7 +60,7 @@
     width: 100%;
     height: auto;
 box-sizing: border-box;
-border: 2px solid green;
+
  
 }
 .first{
@@ -122,7 +122,37 @@ img{
     margin:10px;
  }
 
+ @media (max-width: 600px) {
+    .home {
+      padding: 0.5rem; /* Reduce padding for smaller screens */
+    }
+  
+    h1 {
+      font-size: 1rem; /* Further reduce font size for phones */
+    }
+  
+    button {
+      margin-top: 0.5rem; /* Reduce space between heading and button for phones */
+    }
+  }
 
+  /* Media query for tablets (768px width) */
+@media (min-width: 768px) {
+    .flex {
+      flex-direction: row; /* Display elements side by side on tablets and larger screens */
+      align-items: center; /* Center content horizontally */
+    }
+  
+    h1 {
+      font-size: 2rem; /* Increase font size for tablets */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .home {
+      padding: 4rem; /* Increase padding for larger screens */
+    }
+  }
 
  
 

@@ -27,3 +27,17 @@ p{
 .grey{
     color:grey
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #foot {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .para {
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+  }
