@@ -21,7 +21,7 @@ Before you start, ensure you have the following:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Anuradhagupta28/Finmee-github-homepage.git
+   git clone https://github.com/Anuradhagupta28/Finmee-ntwist.git
 
  2. Navigate to the project folder:
  cd Finmee-NTWIST-homepage
