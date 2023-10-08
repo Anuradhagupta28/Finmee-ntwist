@@ -4,7 +4,7 @@ A homepage layout built using React ,javascript ,html,css for the Ntwist project
 
 ## Demo
 
-See the live demo: [https://finmee-github-homepage.vercel.app/](link-to-demo)
+See the live demo: [https://finmee-ntwist.vercel.app](link-to-demo)
 
 ## Features
 
